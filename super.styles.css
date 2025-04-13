@@ -1,0 +1,29 @@
+.info-box {
+    border: 2px solid pink; /* Розовая рамка */
+    padding: 10px; /* Отступы внутри рамки */
+    margin: 20px 0; /* Отступы сверху и снизу */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center !important;
+    color: rgb(0, 255, 170);
+    font-size: 1.5em;
+    max-width: 66%;
+    margin: 0 auto;
+    margin-bottom: 2cm; /* Увеличение интервала между заголовками */
+}
+
+p {
+    font-size: 2em;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2cm; /* Увеличение интервала между строками */
+}
+
+body {
+    background-image: url('https://avatars.mds.yandex.net/i?id=10aeac0c456aad2355362a8d731e98d02753a1c6-9705291-images-thumbs&n=13');
+    background-size: 50%; /* Уменьшение изображения в два раза */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Запрет повторения изображения */
+}
